@@ -10,9 +10,10 @@
          failOnRisky="true"
          failOnWarning="true"
          colors="true">
+<!--Note: verbose is no longer supported on PHPUnit 11-->
     <testsuites>
         <testsuite name="default">
-            <directory>../tests</directory>
+            <directory suffix="Test.php">../tests</directory>
         </testsuite>
     </testsuites>
 
