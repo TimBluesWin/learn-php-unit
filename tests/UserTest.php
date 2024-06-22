@@ -1,9 +1,11 @@
 <?php
 
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\TestCase;
 
 include "../src/User.php";
 
+#[CoversClass(User::class)]
 class UserTest extends TestCase{
 
     public function testReturnFullName()

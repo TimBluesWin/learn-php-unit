@@ -1,7 +1,9 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\Attributes\CoversNothing;
 
+#[CoversNothing]
 class ExampleTest extends TestCase {
     public function testAddingTwoPlusTwoResultsInFour()
     {

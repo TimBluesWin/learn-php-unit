@@ -1,10 +1,14 @@
 <?php
 
 use PHPUnit\Framework\TestCase;
+use PHPUnit\Framework\Attributes\CoversFunction;
+use PHPUnit\Framework\Attributes\CoversNothing;
+
 include "../src/functions.php";
 
 // Note: dot shows tests that passed
 
+#[CoversNothing]
 class FunctionTest extends TestCase
 {
     public function testMultiplyReturnsCorrectResults(){
