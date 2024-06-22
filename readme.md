@@ -10,9 +10,12 @@
 
 <ol>
     <li>Go to tools folder</li>
-    <li>
-        Once there, you can type "./phpunit.phar ../tests/*Class*Test.php" (Replace "*Class*" with the class name)
-    </li>
+    <li>Once there, you can type "./phpunit.phar"</li>
+</ol>
+
+<h2>These steps are no longer required as I have set up PHPUnit.xml. If there were none, do these:
+<ol>
+    <li>Once there, you can type "./phpunit.phar ../tests/*Class*Test.php" (Replace "*Class*" with the class name)</li>
     <li>If you want to run entire tests in the "test" folders, just type "./phpunit ../tests/"</li>
     <li>Filter using this command: "./phpunit.phar ../tests/ --filter=testNameOfTest" (Replace "NameOfTest" with the name of test)</li>
     <li> Use "--color" to display outputs in color. </li>
